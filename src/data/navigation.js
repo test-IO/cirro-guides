@@ -27,9 +27,7 @@ const navigation = [
   },
   {
     title: "EPAM",
-    links: [
-      { title: "EPAM Integrations", href: "/docs/epam/integrations" },
-    ],
+    links: [{ title: "EPAM Integrations", href: "/docs/epam/integrations" }],
   },
 ]
 

@@ -1,14 +1,14 @@
 // CodeRef.component.tsx
-
-import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 import { Fragment, useEffect, useState } from "react"
+import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 
 export function CodeRef({ children, language }) {
-  const [ style, setStyle ] = useState({})
+  const [style, setStyle] = useState({})
 
   useEffect(() => {
-    import('react-syntax-highlighter/dist/esm/styles/prism/night-owl')
-    .then(mod => setStyle(mod.default))
+    import("react-syntax-highlighter/dist/esm/styles/prism/night-owl").then((mod) =>
+      setStyle(mod.default)
+    )
   })
 
   // Turn React element children into string
@@ -17,7 +17,7 @@ export function CodeRef({ children, language }) {
     if (typeof children === "string") {
       code = children
     } else if (Array.isArray(children)) {
-      code = children.map(child => child.props.children).join("\n")
+      code = children.map((child) => child.props.children).join("\n")
     } else {
       code = children.props.children
     }
