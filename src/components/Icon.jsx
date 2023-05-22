@@ -1,4 +1,9 @@
-import { ShieldCheckIcon, MoonIcon, RectangleStackIcon, ClipboardDocumentCheckIcon } from "@heroicons/react/24/outline"
+import {
+  ClipboardDocumentCheckIcon,
+  MoonIcon,
+  RectangleStackIcon,
+  ShieldCheckIcon,
+} from "@heroicons/react/24/outline"
 import clsx from "clsx"
 import { useId } from "react"
 

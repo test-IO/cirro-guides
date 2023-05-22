@@ -1,6 +1,6 @@
-import { QuickLink, QuickLinks } from "@/components/QuickLinks"
-import { comment, head, link, script } from '@markdoc/next.js/tags'
 import { CodeRef } from "@/components/CodeRef"
+import { QuickLink, QuickLinks } from "@/components/QuickLinks"
+import { comment, head, link, script } from "@markdoc/next.js/tags"
 
 const tags = {
   figure: {

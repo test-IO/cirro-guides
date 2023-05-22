@@ -55,14 +55,14 @@ function Header({ navigation }) {
           </span>
         </Link>
       </div>
-      <div className="hidden -my-5 mr-6 sm:mr-8 md:mr-0">
+      <div className="-my-5 mr-6 hidden sm:mr-8 md:mr-0">
         <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
         <Link
           href="https://github.com/test-IO/cirro-guides"
-          className="hidden group"
+          className="group hidden"
           aria-label="GitHub"
         >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />

@@ -4,10 +4,9 @@ import blurCyanImage from "@/images/blur-cyan.png"
 import blurIndigoImage from "@/images/blur-indigo.png"
 import clsx from "clsx"
 import Image from "next/image"
-
-import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 //import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { Fragment, useEffect, useState } from "react"
+import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 
 const codeLanguage = "ruby"
 const code = `require "cirro-ruby-client"
@@ -37,10 +36,11 @@ function TrafficLightsIcon(props) {
 }
 
 export function Hero() {
-  const [ style, setStyle ] = useState({})
+  const [style, setStyle] = useState({})
   useEffect(() => {
-    import('react-syntax-highlighter/dist/esm/styles/prism/night-owl')
-    .then(mod => setStyle(mod.default));
+    import("react-syntax-highlighter/dist/esm/styles/prism/night-owl").then((mod) =>
+      setStyle(mod.default)
+    )
   })
   return (
     <div className="overflow-hidden bg-slate-900 dark:-mb-32 dark:mt-[-4.5rem] dark:pb-32 dark:pt-[4.5rem] dark:lg:mt-[-4.75rem] dark:lg:pt-[4.75rem]">
@@ -66,16 +66,10 @@ export function Hero() {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
-                <Button
-                  href="https://cirroapiv2.docs.apiary.io/"
-                  variant="secondary"
-                >
+                <Button href="https://cirroapiv2.docs.apiary.io/" variant="secondary">
                   API Reference
                 </Button>
-                <Button
-                  href="https://developers.cirro.io/"
-                  variant="secondary"
-                >
+                <Button href="https://developers.cirro.io/" variant="secondary">
                   developers.cirro.io
                 </Button>
               </div>
@@ -133,12 +127,17 @@ export function Hero() {
                     ))}
                   </div>
                   <div className="mt-2 flex items-start px-1 text-sm">
-                    <ReactSyntaxHighlighter language="ruby" style={style} showLineNumbers="true" customStyle={{
-					background: 'unset',
-					backgroundColor: 'none',
-					border: 'none',
-					margin: 0,
-				}}>
+                    <ReactSyntaxHighlighter
+                      language="ruby"
+                      style={style}
+                      showLineNumbers="true"
+                      customStyle={{
+                        background: "unset",
+                        backgroundColor: "none",
+                        border: "none",
+                        margin: 0,
+                      }}
+                    >
                       {code}
                     </ReactSyntaxHighlighter>
                   </div>

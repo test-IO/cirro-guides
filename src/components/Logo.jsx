@@ -1,6 +1,6 @@
+import iconImage from "@/images/icon.png"
 import darkModeLogoImage from "@/images/logo-dark.png"
 import lightModeLogoImage from "@/images/logo-light.png"
-import iconImage from "@/images/icon.png"
 import Image from "next/image"
 
 export function Logomark(props) {
@@ -8,16 +8,7 @@ export function Logomark(props) {
 }
 
 export function Logo(props) {
-  return (
-    <Image
-      src={lightModeLogoImage}
-      alt=""
-      height={40}
-      unoptimized
-      priority
-      {...props}
-    />
-  )
+  return <Image src={lightModeLogoImage} alt="" height={40} unoptimized priority {...props} />
 }
 
 export function LogoDarkMode(props) {
