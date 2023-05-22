@@ -1,6 +1,6 @@
 import darkModeLogoImage from "@/images/logo-dark.png"
 import lightModeLogoImage from "@/images/logo-light.png"
-import iconImage from "@/images/Stimulus x Tailwind Icon.png"
+import iconImage from "@/images/icon.png"
 import Image from "next/image"
 
 export function Logomark(props) {
