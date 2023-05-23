@@ -5,7 +5,6 @@
 [![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml)
 [![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
 [![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
-[![CodeQL](https://github.com/test-IO/cirro-guides/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/github-code-scanning/codeql)
 
 > Cirro Guides for anyone - business or developer - to learn about Cirro and how to use it.
 > This is a [Next.js](https://nextjs.org/) project using [Tailwind CSS](https://tailwindcss.com/) and [Markdoc](https://markdoc.dev/).
@@ -41,6 +40,10 @@ To contribute to the Cirro Guides application (this repository), you need to hav
 
 To get started, first run `bin/setup`. This will install all dependencies and set up the project. Then run `yarn dev` to start the development server. You can now access the application at [http://localhost:3000](http://localhost:3000).  
 To run the linter, run `bin/lint`. This requires markdownlint to be installed. To install it via Homebrew, run `brew install markdownlint-cli`.
+
+### Search
+
+The search is powered by [Algolia](https://www.algolia.com/). The search index is updated by running a crawler on the deployed guides. This crawler is Python based and lives in its own (private) [repository](https://github.com/test-IO/cirro-guides-scraper). All instructions on how to run the crawler can be found in that repositories [README](https://github.com/test-IO/cirro-guides-scraper#readme).
 
 ### JavaScript
 
