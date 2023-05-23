@@ -4,7 +4,7 @@ import lightModeLogoImage from "@/images/logo-light.png"
 import Image from "next/image"
 
 export function Logomark(props) {
-  return <Image src={iconImage} alt="" width={72} height={72} unoptimized priority {...props} />
+  return <Image src={iconImage} alt="" height={72} unoptimized priority {...props} />
 }
 
 export function Logo(props) {
@@ -13,6 +13,6 @@ export function Logo(props) {
 
 export function LogoDarkMode(props) {
   return (
-    <Image src={darkModeLogoImage} alt="" width={500} height={40} unoptimized priority {...props} />
+    <Image src={darkModeLogoImage} alt="" height={40} unoptimized priority {...props} />
   )
 }
