@@ -1,5 +1,4 @@
-// CodeRef.component.tsx
-import { Fragment, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 
 export function CodeRef({ children, language }) {
