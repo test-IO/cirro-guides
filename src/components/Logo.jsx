@@ -12,7 +12,5 @@ export function Logo(props) {
 }
 
 export function LogoDarkMode(props) {
-  return (
-    <Image src={darkModeLogoImage} alt="" height={40} unoptimized priority {...props} />
-  )
+  return <Image src={darkModeLogoImage} alt="" height={40} unoptimized priority {...props} />
 }
