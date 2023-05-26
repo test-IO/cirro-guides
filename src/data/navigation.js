@@ -7,7 +7,7 @@ const navigation = [
       { title: "Terminology", href: "/docs/terminology" },
       { title: "Example Space", href: "/docs/example_space" },
       { title: "Webhooks", href: "/docs/webhooks" },
-      { title: "Test_Webhooks", href: "/docs/test_webhooks" },
+      { title: "Test", href: "/docs/test_webhooks" },
     ],
   },
   {
