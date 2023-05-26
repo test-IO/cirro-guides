@@ -11,7 +11,7 @@ Every worker for any crowd platform (we call them Spaces) built on top of Cirro 
 ## What Cirro is not
 
 Cirro does not provide a frontend interface for your workers to perform and submit tasks. You have to build and operate your own application - including data storage and processing - to provide your workers with a way to perform tasks and fetch/submit data from and to Cirro.  
-However, we provide a sample Space (currently only in Ruby on Rails) that you can use as a starting point for your own Space. You can find the source code for the sample Space [here](/TBD).
+However, we provide a sample Space (currently only in Ruby on Rails) that you can use as a starting point for your own Space. You can find the source code for the sample Space [here](/to-be-defined).
 
 ## What Cirro can do for you
 
