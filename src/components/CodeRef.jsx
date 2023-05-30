@@ -1,7 +1,7 @@
-import { useEffect, useState, useRef } from "react"
-import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 import { Icon } from "@/components/Icon"
-import copy from 'copy-to-clipboard'
+import copy from "copy-to-clipboard"
+import { useEffect, useRef, useState } from "react"
+import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 
 export function CodeRef({ children, language, showLineNumbers = true }) {
   const [style, setStyle] = useState({})
@@ -30,13 +30,13 @@ export function CodeRef({ children, language, showLineNumbers = true }) {
 
   useEffect(() => {
     if (copied) {
-      copy(code);
-      const to = setTimeout(setCopied, 1000, false);
-      return () => clearTimeout(to);
+      copy(code)
+      const to = setTimeout(setCopied, 1000, false)
+      return () => clearTimeout(to)
     }
   }, [copied])
 
-  const lines = code.split('\n').filter(Boolean)
+  const lines = code.split("\n").filter(Boolean)
 
   return (
     <div className="code" aria-live="polite">
@@ -44,10 +44,10 @@ export function CodeRef({ children, language, showLineNumbers = true }) {
         {code}
       </ReactSyntaxHighlighter>
       <button onClick={() => setCopied(true)}>
-        <Icon icon={copied ? 'copied' : 'copy'} />
+        <Icon icon={copied ? "copied" : "copy"} />
       </button>
       <style>
-      {`
+        {`
         .code {
           position: relative;
         }
@@ -56,7 +56,7 @@ export function CodeRef({ children, language, showLineNumbers = true }) {
           position: absolute;
           color: inherit;
           background: var(--code-background);
-          top: ${lines.length === 1 ? '17px' : '13px'};
+          top: ${lines.length === 1 ? "17px" : "13px"};
           right: 11px;
           border-radius: 4px;
           border: none;
