@@ -29,6 +29,33 @@ You will find all the content in the `src` folder. The content is written in Mar
 │   ├── data    # Sidebar navigation links
 ```
 
+---
+
+If you want to embed **code snippets**, you can use the following syntax:
+
+````Markdown
+{% code language="ruby" showLineNumbers=true %}
+```
+x = 7.days.ago
+```
+{% /code %}
+````
+
+---
+
+All pages by default show a **table of contents** on the right. You can disable this by adding `hideTableOfContents: true` to the frontmatter of the page:
+
+```Markdown
+---
+title: "Page Title"
+hideTableOfContents: true
+---
+```
+
+This will expand the content to the full width of the page.
+
+---
+
 ### Writing Code
 
 To contribute to the Cirro Guides application (this repository), you need to have a basic understanding of JavaScript (Next.js), Markdoc, TailwindCSS, and Yarn. Git(Hub) proficiency is presumed. If you are not familiar with these, please read the following guides:

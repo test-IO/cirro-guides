@@ -34,12 +34,17 @@ const tags = {
   link: link,
   code: {
     render: CodeRef,
-    description: "Import lines of code from a separate file.",
+    description: "Syntax highlighting for code blocks.",
     attributes: {
       language: {
         type: String,
         required: true,
         description: "A language must be specified for the ref block.",
+      },
+      showLineNumbers: {
+        type: Boolean,
+        default: true,
+        description: "Show line numbers in the code block.",
       },
     },
   },

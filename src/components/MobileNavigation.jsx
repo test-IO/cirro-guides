@@ -35,7 +35,7 @@ function CloseIcon(props) {
   )
 }
 
-export function MobileNavigation({ navigation }) {
+export function MobileNavigation({ main, navigation }) {
   let router = useRouter()
   let [isOpen, setIsOpen] = useState(false)
 
@@ -80,7 +80,7 @@ export function MobileNavigation({ navigation }) {
               <Logomark className="h-9 w-9" />
             </Link>
           </div>
-          <Navigation navigation={navigation} className="mt-5 px-1" />
+          <Navigation main={main} navigation={navigation} className="mt-5 px-1" />
         </Dialog.Panel>
       </Dialog>
     </>

@@ -20,7 +20,7 @@ function GitHubIcon(props) {
   )
 }
 
-function Header({ navigation }) {
+function Header({ main, navigation }) {
   let [isScrolled, setIsScrolled] = useState(false)
 
   useEffect(() => {
@@ -44,7 +44,7 @@ function Header({ navigation }) {
       )}
     >
       <div className="mr-6 flex lg:hidden">
-        <MobileNavigation navigation={navigation} />
+        <MobileNavigation main={main} navigation={navigation} />
       </div>
       <div className="relative flex flex-grow basis-0 items-center">
         <Link href="/" aria-label="Home page">
@@ -139,7 +139,7 @@ export function Layout({ children, title, tableOfContents }) {
 
   return (
     <>
-      <Header navigation={navigation} />
+      <Header main={main} navigation={navigation} />
 
       {isHomePage && <Hero />}
 
