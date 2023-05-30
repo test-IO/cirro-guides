@@ -46,13 +46,17 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
 
 export default function App({ Component, pageProps }) {
   let title = pageProps.markdoc?.frontmatter.title
+  let showTableOfContent = !pageProps.markdoc?.frontmatter.hideTableOfContents
 
   let pageTitle =
     pageProps.markdoc?.frontmatter.pageTitle || `${pageProps.markdoc?.frontmatter.title} - Docs`
 
   let description = pageProps.markdoc?.frontmatter.description
 
-  let tableOfContents = pageProps.markdoc?.content ? collectHeadings(pageProps.markdoc.content) : []
+  let tableOfContents = []
+  if (showTableOfContent && pageProps.markdoc?.content) {
+    tableOfContents = collectHeadings(pageProps.markdoc.content)
+  }
 
   return (
     <>
