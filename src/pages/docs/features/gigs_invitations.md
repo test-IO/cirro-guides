@@ -2,7 +2,7 @@
 title: Gigs & Invitations
 description: Creating Gigs and inviting Workers.
 ---
-In the [Terminology](https://guides.cirro.io/docs/terminology) section we have already discussed **Gigs**; *a gig is an opportunity for a user to perform a task (and earn a reward). Your space can create gigs which trigger Cirro to start looking for matching users and invite them through an invitation notification.* You could read further about notifications under [Notifications](https://guides.cirro.io/docs/features/notifications).
+In the [Terminology](https://guides.cirro.io/docs/terminology) section we have already discussed **Gigs**; *a gig is an opportunity for a user to perform a task (and earn a reward). Your space can create gigs which trigger Cirro to start looking for matching users and invite them through an invitation notification.* You could read further about invitations under [Notifications](https://guides.cirro.io/docs/features/notifications) and [Space Invitations](https://guides.cirro.io/docs/features/space_invitations).
 
 Before you could invite users to your space, it must tell Cirro about the gig that you want to invite the users to. Each gig goes through the created -> start -> end -> archived cycle. You invite users to join the gig between the start -> end phases. 
 
