@@ -38,12 +38,12 @@ You can choose between two types of **Notification Layouts** to style your notif
 
 However, we recognize that Spaces are likely to reach a point where they do want control over every detail of their communication with users. In this case, you can create your own custom notification layout and attach your notification topics to it. This way you provide full layout plus content templates for your topics.
 
-In case of an email notification, this means you will be responsible for the <html>, <head>, and <body> tags and everything there within.
+In case of an email notification, this means you will be responsible for the `<html>`, `<head>`, and `<body>` tags and everything there within.
 
 #### Mandatory Placeholders
 The one key caveat when you use custom layout is that you must now be sure to provide a placeholder in your email templates for the notice that Cirro legally must include in all emails to workers.
 	
 This notice will provide an unsubscribe link as well as additional information about the Cirro platform.
-You will be unable to create or update templates for a topic that uses custom layout unless that templates include the %{cirro_notice} placeholder somewhere.
+You will be unable to create or update templates for a topic that uses custom layout unless that templates include the `%{cirro_notice}` placeholder somewhere.
 When crafting your own custom email templates, we recommend that you place this notice placeholder in a properly integrated "footer" section of the email.
 
