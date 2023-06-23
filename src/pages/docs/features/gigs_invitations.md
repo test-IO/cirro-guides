@@ -14,4 +14,4 @@ Every space needs to provide a clear flow on how to:
 Your space keeps this data in sync with Cirro in the background, letting the API know when a user has accepted or rejected an invitation.
 As all of the spaces must keep Cirro up-to-date with whether or not a user has accepted an invitation, Cirro also provides an overview of all gigs across all spaces the user is active in.
 
-There are two invitation modes: **auto** and **manual**. Auto invitation allows Cirro to take control over the invitation flow of your gig, running in waves of 5 min intervals. It automatically calculates the vacancies and sends out invitations for matching users. You can send out manual invitations based on your space's needs. This mode supports bulk and single invite send-out.
+There are two invitation modes: **auto** and **manual**. Auto invitation allows Cirro to take control over the invitation flow of your gig, running in waves of 5 min intervals. It automatically calculates the vacancies and sends out invitations for matching users.
