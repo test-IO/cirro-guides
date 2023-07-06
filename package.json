@@ -26,7 +26,7 @@
     "copy-to-clipboard": "^3.3.1",
     "focus-visible": "^5.2.0",
     "next": "^13.4.4",
-    "postcss-focus-visible": "^8.0.2",
+    "postcss-focus-visible": "^9.0.0",
     "postcss-import": "^15.1.0",
     "prism-react-renderer": "^2.0.0",
     "prismjs": "^1.29.0",
@@ -40,8 +40,8 @@
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "eslint": "^8.41.0",
     "eslint-config-next": "^13.4.0",
-    "markdownlint": "^0.28.1",
-    "prettier": "^2.8.7",
+    "markdownlint": "^0.29.0",
+    "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }

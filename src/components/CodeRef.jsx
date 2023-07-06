@@ -6,12 +6,28 @@ import { Prism as ReactSyntaxHighlighter } from "react-syntax-highlighter"
 export function CodeRef({ children, language, showLineNumbers = true }) {
   const [style, setStyle] = useState({})
   const [copied, setCopied] = useState(false)
+  const [selectedTheme, setSelectedTheme] = useState("system")
 
   useEffect(() => {
-    import("react-syntax-highlighter/dist/esm/styles/prism/night-owl").then((mod) =>
-      setStyle(mod.default)
-    )
-  })
+    let theme = document.documentElement.classList.contains("dark") ? "dark" : "light"
+    if (theme === "dark") {
+      import("react-syntax-highlighter/dist/esm/styles/prism/synthwave84").then((mod) =>
+        setStyle(mod.default)
+      )
+    } else {
+      import("react-syntax-highlighter/dist/esm/styles/prism/night-owl").then((mod) =>
+        setStyle(mod.default)
+      )
+    }
+  }, [selectedTheme])
+
+  useEffect(() => {
+    let handler = (event) => setSelectedTheme(event.detail.newValue)
+
+    window.addEventListener("themechange", handler)
+
+    return () => window.removeEventListener("storage", handler)
+  }, [])
 
   // Turn React element children into string
   let code = ""
@@ -56,7 +72,7 @@ export function CodeRef({ children, language, showLineNumbers = true }) {
           position: absolute;
           color: inherit;
           background: var(--code-background);
-          top: ${lines.length === 1 ? "17px" : "13px"};
+          top: ${lines.length === 1 ? "11px" : "12px"};
           right: 11px;
           border-radius: 4px;
           border: none;
