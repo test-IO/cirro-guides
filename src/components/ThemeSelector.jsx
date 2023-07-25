@@ -58,10 +58,10 @@ export function ThemeSelector(props) {
   }, [selectedTheme])
 
   useEffect(() => {
-    let handler = () =>
-      setSelectedTheme(
-        themes.find((theme) => theme.value === (window.localStorage.theme ?? "system"))
-      )
+    let handler = () => console.log("storage changed")
+    setSelectedTheme(
+      themes.find((theme) => theme.value === (window.localStorage.theme ?? "system"))
+    )
 
     window.addEventListener("storage", handler)
 
