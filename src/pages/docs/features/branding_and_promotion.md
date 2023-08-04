@@ -1,61 +1,26 @@
-# [Cirro Core] Extend the app details page for Spaces
+## Mandatory information upon space creation
+Upon creating your space, you need to provide some mandatory information. You are to define the **type of work** (or category) available within your space. There is a free text field available for this purpose, that offers a set list of options via autocomplete, but you can also create your own value. Please note, a space can have only one category. You need to add a **short description** of your space in a free text field. It is important to keep it short (there is a limit of 180 characters), as there is a separate rich text field to provide your **space description** with the possibility of uploading pictures. You need to provide your **interface languages** to be used. Languages (or locales) are displayed in a multi-select field and those already in use can be excluded from the select options.
 
-**Please note these release notes contain yet to be released features as well!**
+Your space description needs to contain the **company name**, a **link** to a publicly available website or landing page, a **support contact email address** and **Social links**.
 
-## Summary
-In the current squad, we have introduced a new design on Cirro's Community interface and extended the app details of Spaces, so workers can access Space-related information prior to joining and contributing to a Space.
+## Visibility
+The **visibility** of your space is defined by community membership. Users with access to your space see a full, detailed description. For those without access, the space card is not visible at all. Upon following the link to the restricted space, a flash message is displayed for them.
 
-![Space details page]()
-
-## Details
-We have redesigned the card view of Spaces. Apart from implementing new design elements, we have introduced the following sections on the card of a given Space:
-  * type of work available within the Space (free text)
-    * offers a set list of available options via autocomplete
-    * additionally, own value can be created
-    * a space can have only one category
-in compact view text background is above space title with smaller font
+Spaces are displayed in card view and detailed view. **Card view** contains limited information compared to detailed view:
+  * type of work that is available within the space
   * 'Gigs available' with numeric details
   * 'Gigs completed' with numeric details
-  * 'Details' link leading to the details page of the given Space
+  * 'Details' link leading to the details page of the given space
 
-![Card view]()
-
-Space users can **join a Space** in two ways:
-  * via card view by hitting 'Join' button (flash message is displayed)
-  * via app details page by hitting 'Join' button (no flash message displayed)
-
-[Joining a Space](https://)
-
-**Visibility of the sections** are based on community membership:
-  * for those with access, a full, detailed description is displayed
-  * for those without access, the Space card is not visible at all
-      * upon following the link of the restricted space a flash message is displayed
-
-We have introduced the following sections on community.cirro.io:
-  * type of work available within the Space (free text)
-  * information on when the user joined the given Space
-  * 'Gigs available' and 'Gigs completed' with numeric details
-  * mandatory Space description (rich text)
-  * list of supported interface languages
-      * locales are displayed in a multi-select field
-      * locales already in use can be excluded from the select options 
-  * vendor / app contact information consisting of the following segments
+**Detailed view** displays the following information: 
   * company name
-      * a link to a publicly available website or landing page 
-      * a support contact email address
-      * Social links (Discord, Slack and Teams)
+  * type of work that is available within your space
+  * information on when the user joined the given Space
+  * short description
+  * 'Gigs available' and 'Gigs completed' with numeric details
+  * space description
+  * contact information
+  * supported interface languages
 
-![Space details page]()
-
-The very same information has been implemented on developers.cirro.io in the 'Branding' section.
-
-[Branding secttion](https://)
-
-We have refactored 'Notification Locales' to be 'Locales'.
-
-![Locales]()
-
-**Feature yet to be released!**
-We are currently working on the implementation of switching not to use subdomains by
-  * patch based account selection
-  * redirections to subdomains
+## Access 
+Users can **join your space** either via card view by hitting 'Join' button. Upon joining a space this way, a flash message is displayed. The other access method is via the app details page by hitting the 'Join' button. This way, there is no flash message displayed.
