@@ -1,8 +1,8 @@
 {
-  "name": "cirro.guides",
+  "name": "testio.guides",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3033",
     "build": "next build",
     "start": "next start",
     "lint": "./bin/lint",

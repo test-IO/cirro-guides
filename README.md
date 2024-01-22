@@ -1,19 +1,19 @@
-![Logo](/.github/cirro-guides-banner.png)
+![Logo](/.github/testio-guides-banner.png)
 
-# Cirro Guides
+# Test IO Guides
 
-[![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml)
-[![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
-[![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
+[![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/test-IO/testio-guides/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/test-IO/testio-guides/actions/workflows/deploy.yml)
+[![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/test-IO/testio-guides/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/test-IO/testio-guides/actions/workflows/build.yml)
+[![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/test-IO/testio-guides/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/test-IO/testio-guides/actions/workflows/lints.yml)
 
-> Cirro Guides for anyone - business or developer - to learn about Cirro and how to use it.
+> Test IO Guides for anyone - business or developer - to learn about Test IO and how to use it.
 > This is a [Next.js](https://nextjs.org/) project using [Tailwind CSS](https://tailwindcss.com/) and [Markdoc](https://markdoc.dev/).
 
 ## Contributing
 
 ### Writing Content
 
-To write content for the Cirro Guides, you need to have a basic understanding of Markdown (more precisely Markdoc) and Git. If you are not familiar with these, please read the following guides:
+To write content for the Test IO Guides, you need to have a basic understanding of Markdown (more precisely Markdoc) and Git. If you are not familiar with these, please read the following guides:
 
 - [Markdown Guide](https://www.markdownguide.org/)
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
@@ -58,7 +58,7 @@ This will expand the content to the full width of the page.
 
 ### Writing Code
 
-To contribute to the Cirro Guides application (this repository), you need to have a basic understanding of JavaScript (Next.js), Markdoc, TailwindCSS, and Yarn. Git(Hub) proficiency is presumed. If you are not familiar with these, please read the following guides:
+To contribute to the Test IO Guides application (this repository), you need to have a basic understanding of JavaScript (Next.js), Markdoc, TailwindCSS, and Yarn. Git(Hub) proficiency is presumed. If you are not familiar with these, please read the following guides:
 
 - [Next.js](https://nextjs.org/docs/getting-started)
 - [Yarn](https://yarnpkg.com/getting-started)
@@ -70,7 +70,7 @@ To run the linter, run `bin/lint`. This requires markdownlint to be installed. T
 
 ### Search
 
-The search is powered by [Algolia](https://www.algolia.com/). The search index is updated by running a crawler on the deployed guides. This crawler is Python based and lives in its own (private) [repository](https://github.com/test-IO/cirro-guides-scraper). All instructions on how to run the crawler can be found in that repositories [README](https://github.com/test-IO/cirro-guides-scraper#readme).
+The search currently is not supported.
 
 ### JavaScript
 
@@ -81,4 +81,4 @@ The search is powered by [Algolia](https://www.algolia.com/). The search index i
 
 ## Authors
 
-👤 **Jan Schwenzien**
+👤 **Aleksei Okatiev**

@@ -1,5 +1,6 @@
 import {
   ClipboardDocumentCheckIcon,
+  LinkIcon,
   MoonIcon,
   RectangleStackIcon,
   ShieldCheckIcon,
@@ -11,6 +12,7 @@ const icons = {
   shield_check: ShieldCheckIcon,
   rectangle_stack: RectangleStackIcon,
   clipboard_document_check: ClipboardDocumentCheckIcon,
+  link: LinkIcon,
 }
 
 const iconStyles = {

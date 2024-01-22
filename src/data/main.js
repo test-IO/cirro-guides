@@ -7,13 +7,13 @@ const main = [
     icon: BookOpenIcon,
   },
   {
-    title: "API Reference",
-    href: "https://cirroapiv2.docs.apiary.io/",
-    icon: CodeBracketIcon,
+    title: "Integrations",
+    href: "/docs/integrations/overview",
+    icon: AdjustmentsVerticalIcon,
   },
   {
-    title: "developers.cirro.io",
-    href: "https://developers.cirro.io/",
+    title: "Customer API Reference",
+    href: "https://testio2.docs.apiary.io/",
     icon: AdjustmentsVerticalIcon,
   },
 ]

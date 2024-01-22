@@ -1,33 +1,23 @@
 const navigation = [
   {
     title: "Introduction",
+    links: [{ title: "Getting started", href: "/" }],
+  },
+  {
+    title: "Integrations",
     links: [
-      { title: "Getting started", href: "/" },
-      { title: "Scope of Cirro", href: "/docs/scope" },
-      { title: "Terminology", href: "/docs/terminology" },
-      { title: "Example Space", href: "/docs/example_space" },
-      { title: "Webhooks", href: "/docs/webhooks" },
+      { title: "Overview", href: "/docs/integrations/overview" },
+      { title: "Jira Plugins", href: "/docs/integrations/jira_plugins" },
+      { title: "Zapier integration", href: "/docs/integrations/zapier" },
     ],
   },
   {
-    title: "Main Features",
+    title: "Jira Plugins",
     links: [
-      { title: "Authentication", href: "/docs/features/authentication" },
-      { title: "Gigs & Invitations", href: "/docs/features/gigs_invitations" },
-      { title: "Results & Rewards", href: "/docs/features/results_rewards" },
+      { title: "Migrate Server Plugin To Cloud", href: "/docs/jira_plugins/migration_to_cloud" },
+      { title: "Jira Cloud", href: "/docs/jira_plugins/cloud" },
+      { title: "Jira Server(Data Center)", href: "/docs/jira_plugins/server" },
     ],
-  },
-  {
-    title: "Secondary Features",
-    links: [
-      { title: "Notifications", href: "/docs/features/notifications" },
-      { title: "Space Invitations", href: "/docs/features/space_invitations" },
-      { title: "Skill Sync", href: "/docs/features/skill_sync" },
-    ],
-  },
-  {
-    title: "EPAM",
-    links: [{ title: "EPAM Integrations", href: "/docs/epam/integrations" }],
   },
 ]
 
