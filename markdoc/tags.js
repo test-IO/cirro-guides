@@ -1,5 +1,6 @@
 import { CodeRef } from "@/components/CodeRef"
 import { QuickLink, QuickLinks } from "@/components/QuickLinks"
+import { YouTube } from '@/components/YouTube';
 import { comment, head, link, script } from "@markdoc/next.js/tags"
 
 const tags = {
@@ -47,6 +48,23 @@ const tags = {
         description: "Show line numbers in the code block.",
       },
     },
+  },
+  youtube: {
+    render: YouTube,
+    attributes: {
+      src: {
+        type: String,
+        required: true
+      },
+      title: {
+        type: String,
+        required: true
+      },
+      width: {
+        type: String,
+        default: '50%'
+      }
+    }
   },
 }
 
