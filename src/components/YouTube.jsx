@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 export function YouTube(props) {
   return (
     <div>
@@ -20,5 +18,5 @@ export function YouTube(props) {
         `}
       </style>
     </div>
-  );
+  )
 }

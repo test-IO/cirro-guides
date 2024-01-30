@@ -1,6 +1,7 @@
 import { CodeRef } from "@/components/CodeRef"
+import { MyImage } from "@/components/MyImage"
 import { QuickLink, QuickLinks } from "@/components/QuickLinks"
-import { YouTube } from '@/components/YouTube';
+import { YouTube } from "@/components/YouTube"
 import { comment, head, link, script } from "@markdoc/next.js/tags"
 
 const tags = {
@@ -33,6 +34,19 @@ const tags = {
     },
   },
   link: link,
+  image: {
+    render: MyImage,
+    attributes: {
+      src: {
+        type: String,
+        required: true,
+      },
+      alt: {
+        type: String,
+        required: false,
+      },
+    },
+  },
   code: {
     render: CodeRef,
     description: "Syntax highlighting for code blocks.",
@@ -54,17 +68,17 @@ const tags = {
     attributes: {
       src: {
         type: String,
-        required: true
+        required: true,
       },
       title: {
         type: String,
-        required: true
+        required: true,
       },
       width: {
         type: String,
-        default: '50%'
-      }
-    }
+        default: "50%",
+      },
+    },
   },
 }
 
