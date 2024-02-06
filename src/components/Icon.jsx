@@ -1,10 +1,10 @@
 import {
   ClipboardDocumentCheckIcon,
+  ExclamationCircleIcon,
   LinkIcon,
   MoonIcon,
   RectangleStackIcon,
   ShieldCheckIcon,
-  ExclamationCircleIcon,
 } from "@heroicons/react/24/outline"
 import clsx from "clsx"
 import { useId } from "react"
@@ -14,7 +14,7 @@ const icons = {
   rectangle_stack: RectangleStackIcon,
   clipboard_document_check: ClipboardDocumentCheckIcon,
   link: LinkIcon,
-  exclamation_circle: ExclamationCircleIcon
+  exclamation_circle: ExclamationCircleIcon,
 }
 
 const iconStyles = {
