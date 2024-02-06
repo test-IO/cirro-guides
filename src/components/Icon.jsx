@@ -4,6 +4,7 @@ import {
   MoonIcon,
   RectangleStackIcon,
   ShieldCheckIcon,
+  ExclamationCircleIcon,
 } from "@heroicons/react/24/outline"
 import clsx from "clsx"
 import { useId } from "react"
@@ -13,6 +14,7 @@ const icons = {
   rectangle_stack: RectangleStackIcon,
   clipboard_document_check: ClipboardDocumentCheckIcon,
   link: LinkIcon,
+  exclamation_circle: ExclamationCircleIcon
 }
 
 const iconStyles = {
@@ -20,9 +22,9 @@ const iconStyles = {
   amber: "[--icon-foreground:theme(colors.amber.900)] [--icon-background:theme(colors.amber.100)]",
 }
 
-export function Icon({ color = "blue", icon, className, ...props }) {
+export function Icon({ color = "text-sky-500", icon, className, ...props }) {
   let id = useId()
   let IconComponent = icons[icon]
 
-  return <IconComponent id={id} className={clsx(className, "text-sky-500")} {...props} />
+  return <IconComponent id={id} className={clsx(className, color)} {...props} />
 }

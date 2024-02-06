@@ -2,6 +2,7 @@ import { CodeRef } from "@/components/CodeRef"
 import { QuickLink, QuickLinks } from "@/components/QuickLinks"
 import { Screenshot } from "@/components/Screenshot"
 import { YouTube } from "@/components/YouTube"
+import { Callout } from "@/components/Callout"
 import { comment, head, link, script } from "@markdoc/next.js/tags"
 
 const tags = {
@@ -97,6 +98,18 @@ const tags = {
       },
     },
   },
+  callout: {
+    render: Callout,
+    children: ['paragraph', 'tag', 'list'],
+    attributes: {
+      type: {
+        type: String,
+        default: 'warning',
+        matches: ['warning'],
+        errorLevel: 'critical'
+      },
+    }
+  }
 }
 
 export default tags

@@ -7,7 +7,7 @@ description: How to perform Jira Server to Cloud plugin migration.
 
 Support for Atlassian Server products **ends on Feb. 15, 2024**. {% link href="https://www.atlassian.com/migration/assess/journey-to-cloud" target="_blank" %}Atlassian migration guide{% /link %} has detailed instructions on how to migrate from Server to Cloud.
 
-The Test IO Jira Server plugin provides an option to migrate data to the cloud and continue to use the Test IO Jira Cloud plugin.
+The Test IO Jira Server plugin **version 3.6.4** provides an option to migrate data to the cloud and continue to use the Test IO Jira Cloud plugin.
 
 ## Atlassian migration
 
@@ -18,6 +18,12 @@ This video provided by Atlassian shows how to migrate from Jira Server to Jira C
 ## Test IO migration
 
 After the Atlassian migration is done and Jira Cloud has migrated the data (Projects, Issues and so on), we can start migrating the Test IO plugin's data.
+
+{% callout type="warning" %}
+
+The **Jira Server plugin** should be updated to **version 3.6.3** and above.
+
+{% /callout %}
 
 1. Install the Test IO Cloud plugin from {% link href="https://marketplace.atlassian.com/apps/1217073/qa-service-for-jira?hosting=cloud&tab=overview" target="_blank" %}Atlassian Marketplace{% /link %}.
 
