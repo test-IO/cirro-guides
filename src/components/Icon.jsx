@@ -1,5 +1,6 @@
 import {
   ClipboardDocumentCheckIcon,
+  ClipboardIcon,
   ExclamationCircleIcon,
   LinkIcon,
   MoonIcon,
@@ -15,6 +16,8 @@ const icons = {
   clipboard_document_check: ClipboardDocumentCheckIcon,
   link: LinkIcon,
   exclamation_circle: ExclamationCircleIcon,
+  copy: ClipboardIcon,
+  copied: ClipboardDocumentCheckIcon,
 }
 
 const iconStyles = {

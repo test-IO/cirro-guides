@@ -1,6 +1,6 @@
 ---
-title: Zapier Integration
-description: How Test IO platform integrates with Zapier app.
+title: Getting started
+description: Getting started with the Test IO Zapier app.
 ---
 
 ## Introduction
