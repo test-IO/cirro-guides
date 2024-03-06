@@ -7,6 +7,11 @@ const TYPE_MAP = {
     icon: "exclamation_circle",
     iconColor: "text-red-600",
   },
+  info: {
+    background: "bg-blue-50",
+    icon: "exclamation_circle",
+    iconColor: "text-blue-600",
+  },
 }
 
 export function Callout({ children, type }) {

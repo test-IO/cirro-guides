@@ -7,7 +7,8 @@ description: Learn how to create Zap to export Test IO bug to Notion.
 
 [Bug Report Export Requested trigger](/docs/zapier/triggers#bug-report-export-requested) in combination with [Fetch Bug action](/docs/zapier/actions#fetch-bug) allows you to build a workflow that exports Test IO bug to any other system which has a Zapier app.
 
-In this use case we will demonstrate how to export a bug from Test IO to Notion using Test IO and Notion Zapier apps.
+In this use case we will demonstrate how to export a bug from Test IO to Notion using {% link href="https://zapier.com/apps/test-io/integrations" target="_blank" %}Test IO{% /link %}
+and {% link href="https://zapier.com/apps/notion/integrations" target="_blank" %}Notion{% /link %} Zapier apps.
 
 ## Configure export trigger (Test IO)
 
