@@ -1,6 +1,6 @@
 ---
 title: "Use case 2: Mark bug as fixed in Test IO"
-description: Learn how to a Test IO bug can be marked as fixed when status is updated.
+description: Learn how a Test IO bug can be marked as fixed when status is updated.
 ---
 
 ## Overview

@@ -3,9 +3,11 @@ title: Actions and Searches
 description: Learn about the actions implemented by the Test IO Zapier app.
 ---
 
-## Test IO Actions
+## Test IO Actions and Searches
 
-Test IO Zapier App implements the following actions:
+Test IO Zapier App implements the following:
+
+### Actions
 
 - Accept Bug
 - Reject Bug
@@ -14,9 +16,7 @@ Test IO Zapier App implements the following actions:
 - Mark Bug as Fixed
 - Create Bug Comment
 
-## Test IO Searches
-
-Test IO Zapier App implements the following searches:
+### Searches
 
 - Fetch Bug
 - Fetch Test IO Bug by External Id
@@ -51,4 +51,11 @@ Test IO Zapier App implements the following searches:
 
 ## Fetch Test IO Bug by External Id
 
-**Fetch Test IO Bug by External Id** search fetches information for the exported bug using the ID of the bug in the bug tracking system, for example, Jira Issue ID. Jira is an external system to the Test IO platform, hence "Fetch Test IO Bug by External Id". This is useful when the Test IO bug is exported to a bug tracking system and you don't know the id of this bug in Test IO.
+**Fetch Test IO Bug by External Id** search fetches information for the exported bug using the ID of the bug in the bug tracker.
+
+For example,
+
+- Bug tracker: **Jira Cloud**
+- External ID - **Jira Issue Id**
+
+Jira is an external system to the Test IO platform, hence "Fetch Test IO Bug by External Id". This is useful when the Test IO bug is exported to a bug tracking system and you don't know the ID of this bug in Test IO.

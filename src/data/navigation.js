@@ -28,7 +28,7 @@ const navigation = [
       { title: "Actions and Searches", href: "/docs/zapier/actions" },
       { title: "Use case 1: Export Test IO bug to Notion", href: "/docs/zapier/use_case_1" },
       { title: "Use case 2: Mark bug as fixed in Test IO", href: "/docs/zapier/use_case_2" },
-      { title: "Use case 3: Create comment in Test IO", href: "/docs/zapier/use_case_3" },
+      { title: "Use case 3: Sync Jira Issue status", href: "/docs/zapier/use_case_3" },
     ],
   },
 ]

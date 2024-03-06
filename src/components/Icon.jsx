@@ -1,9 +1,11 @@
 import {
+  BoltIcon,
   ClipboardDocumentCheckIcon,
   ClipboardIcon,
   ExclamationCircleIcon,
   LinkIcon,
   MoonIcon,
+  PlayCircleIcon,
   RectangleStackIcon,
   ShieldCheckIcon,
 } from "@heroicons/react/24/outline"
@@ -18,6 +20,8 @@ const icons = {
   exclamation_circle: ExclamationCircleIcon,
   copy: ClipboardIcon,
   copied: ClipboardDocumentCheckIcon,
+  bolt: BoltIcon,
+  play: PlayCircleIcon,
 }
 
 const iconStyles = {
