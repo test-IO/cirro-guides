@@ -1,5 +1,5 @@
 ---
-title: Getting started
+title: Getting Started
 description: Getting started with the Test IO Zapier app.
 ---
 
@@ -9,8 +9,8 @@ Zapier is an app automation platform where over 2 million people connect apps in
 
 {% quick-links %}
 
-{% quick-link title="Triggers" icon="bolt" href="/docs/zapier/triggers" description="Triggers are events which come from Test IO platform." /%}
+{% quick-link title="Triggers" icon="bolt" href="/docs/zapier/triggers" description="Triggers represent events originating from the Test IO platform." /%}
 
-{% quick-link title="Actions" icon="play" href="/docs/zapier/actions" description="Actions allows to perform certain operations in the Test IO platform." /%}
+{% quick-link title="Actions" icon="play" href="/docs/zapier/actions" description="Actions enable you to execute specific operations within the Test IO platform." /%}
 
 {% /quick-links %}

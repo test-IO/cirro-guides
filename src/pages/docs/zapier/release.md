@@ -1,22 +1,22 @@
 ---
-title: Release notes
-pageTitle: Test IO Zapier App - Release notes
-description: Learn about new releases of Test IO Zapier App.
+title: Release Notes
+pageTitle: Test IO Zapier App - Release Notes
+description: Learn about new releases of the Test IO Zapier App.
 ---
 
 ## Version 1.2.0 (2024-02-21)
 
-New actions let you do more with the Test IO platform:
+New actions expand your capabilities with the Test IO platform:
 
-- **Fetch Test IO Bug by External ID** - e.g. search for a bug in Test IO which is exported to Jira by Issue Id in Jira.
-- **Mark Bug as Known** - mark bug in Test IO as known if you already know about it.
-- **Mark Bug as Fixed** - e.g. mark bug as fixed when Issue status in Jira has changed to Done.
-- **Create Bug Comment** - create a comment for a bug in the Test IO.
+- **Fetch Test IO Bug by External ID** - Locate a bug in Test IO using an external reference, such as a Jira issue ID.
+- **Mark Bug as Known** - Acknowledge an existing bug within Test IO.
+- **Mark Bug as Fixed** - Update a bug's status to fixed in Test IO, potentially triggered by a Jira issue status change to "Done."
+- **Create Bug Comment** - Add a comment to a specific bug in Test IO.
 
 ## Version 1.1.1 (2024-02-16)
 
-Triggers now use ISO8601 format instead of Unix timestamp for the 'performed_at' field.
+Triggers now utilize the ISO8601 format for the 'performed_at' field, replacing the previous Unix timestamp format.
 
 ## Version 1.1.0 (2023-11-14)
 
-**[BREAKING CHANGE]** Our Zapier app now includes a new action step that allows users to easily select a specific product from their Test IO account and create a Zap. Please note that any Zaps created with Test IO Zapier App triggers will need to be updated manually.
+**[BREAKING CHANGE]** A new action step simplifies product selection within the Test IO account for Zap creation. Please manually update any Zaps that use Test IO Zapier app triggers.

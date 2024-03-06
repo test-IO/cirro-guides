@@ -5,16 +5,16 @@ description: Learn about the triggers implemented by the Test IO Zapier app.
 
 ## Test IO Triggers
 
-Test IO Zapier App implements the following triggers:
+The Test IO Zapier app offers the following triggers to automate your workflows:
 
-- Bug Report Forwarded to Customer
-- Bug Report Export Requested
-- Exploratory Test Started
-- Exploratory Test Ended
-- Bug Fix Confirmation Status Changed
-- Comment Added to Bug Report
+- **Bug Report Forwarded to Customer** - Triggered when a new bug report is approved by a manager in Test IO.
+- **Bug Report Export Requested** - Triggered when a bug is accepted and exported from Test IO.
+- **Exploratory Test Started** - Triggered when an exploratory test cycle starts in Test IO.
+- **Exploratory Test Ended** - Triggered when an exploratory test cycle ends in Test IO.
+- **Bug Fix Confirmation Status Changed** - Triggered when the status of a bug fix confirmation is updated in Test IO (possible statuses: failed, passed, cancelled, blocked, expired).
+- **Comment Added to Bug Report** - Triggered when a new comment is added to a bug report in Test IO.
 
-The data provided in a **payload** of each trigger described below is available for using in other Zaps.
+Each trigger provides a **payload of data** that can be used in your subsequent Zap steps. Below are examples of the payloads for each trigger.
 
 ## Bug Report Forwarded to Customer
 
