@@ -23,6 +23,7 @@ const navigation = [
       { title: "Notifications", href: "/docs/features/notifications" },
       { title: "Space Invitations", href: "/docs/features/space_invitations" },
       { title: "Skill Sync", href: "/docs/features/skill_sync" },
+      { title: "AI Access", href: "/docs/features/ai_access" },
     ],
   },
   {
