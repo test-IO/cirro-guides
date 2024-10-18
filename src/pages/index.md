@@ -32,4 +32,6 @@ Please be aware that the Guides are still in development. If you find any issues
 
 Latest changes to the Cirro Guides:
 
+- Oct 18, 2024 - Added Authentication page.
+- Oct 08, 2024 - Added AI Access page.
 - May 16, 2023 - Setting up the Cirro Guides.
