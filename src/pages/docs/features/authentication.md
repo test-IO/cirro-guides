@@ -15,4 +15,4 @@ If you lose it, you will need to generate a new one in the developer portal and 
 With the private key file and app ID, you have full access to all API functions for your app, including managing
 Gigs, Users, and other app settings.
 
-Read more about how to use the private key file and app ID in the [API authentication documentation](https://cirroapiv2.docs.apiary.io/#introduction/authentication).
+Read more about how to use the private key file and app ID in the [API authentication documentation](https://api-docs.cirro.io/docs/authentication).
