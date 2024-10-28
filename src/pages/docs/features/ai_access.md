@@ -1,7 +1,11 @@
 ---
-title: AI Access
+title: AI Access (Experimental)
 description: Requesting AI access for your Space via Cirro.
 ---
+
+{% callout icon="info" %}
+This feature is available upon request only. Please reach out to [support@cirro.io](support@cirro.io) if you would like to request access to it.
+{% /callout %}
 
 With the new **AI Access** feature in the Cirro Developer Interface, you can easily request and manage API tokens for AI integrations. These tokens allow you to enhance your applications with AI capabilities like OpenAI. This feature is accessible through the Cirro UI and is designed to help developers streamline their API access needs.
 

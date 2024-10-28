@@ -27,10 +27,6 @@ const navigation = [
       { title: "AI Access", href: "/docs/features/ai_access" },
     ],
   },
-  {
-    title: "EPAM",
-    links: [{ title: "EPAM Integrations", href: "/docs/epam/integrations" }],
-  },
 ]
 
 export default navigation
