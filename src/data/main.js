@@ -8,7 +8,7 @@ const main = [
   },
   {
     title: "API Reference",
-    href: "https://cirroapiv2.docs.apiary.io/",
+    href: "https://api-docs.cirro.io/",
     icon: CodeBracketIcon,
   },
   {
