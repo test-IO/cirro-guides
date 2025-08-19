@@ -12,8 +12,8 @@ const main = [
     icon: CodeBracketIcon,
   },
   {
-    title: "developers.cirro.io",
-    href: "https://developers.cirro.io/",
+    title: "cirro.io/developers",
+    href: "https://cirro.io/developers",
     icon: AdjustmentsVerticalIcon,
   },
 ]

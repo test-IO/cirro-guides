@@ -3,7 +3,7 @@ title: Authentication
 description: Authenticating your users with Cirro.
 ---
 
-To talk to the Cirro API you need to first register your app in the [Cirro developer portal](https://developers.cirro.io/).
+To talk to the Cirro API you need to first register your app in the [Cirro developer portal](https://cirro.io/developers).
 
 ## Authenticating your app
 
