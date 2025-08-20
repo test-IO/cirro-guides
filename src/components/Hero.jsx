@@ -70,7 +70,7 @@ export function Hero() {
                   API Reference
                 </Button>
                 <Button href="https://cirro.io/developers" variant="secondary">
-                  cirro.io/developers
+                  Developers Portal
                 </Button>
               </div>
             </div>
