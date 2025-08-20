@@ -69,8 +69,8 @@ export function Hero() {
                 <Button href="https://api-docs.cirro.io/" variant="secondary">
                   API Reference
                 </Button>
-                <Button href="https://developers.cirro.io/" variant="secondary">
-                  developers.cirro.io
+                <Button href="https://cirro.io/developers" variant="secondary">
+                  Developer Portal
                 </Button>
               </div>
             </div>
