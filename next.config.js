@@ -14,7 +14,7 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
-  output: 'export'
+  output: "export",
 }
 
 module.exports = withMarkdoc()(nextConfig)
