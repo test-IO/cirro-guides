@@ -50,7 +50,7 @@ export function CodeRef({ children, language, showLineNumbers = true }) {
       const to = setTimeout(setCopied, 1000, false)
       return () => clearTimeout(to)
     }
-  }, [copied])
+  }, [copied, code])
 
   const lines = code.split("\n").filter(Boolean)
 
