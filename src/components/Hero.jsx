@@ -66,11 +66,11 @@ export function Hero() {
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
-                <Button href="https://cirroapiv2.docs.apiary.io/" variant="secondary">
+                <Button href="https://api-docs.cirro.io/" variant="secondary">
                   API Reference
                 </Button>
-                <Button href="https://developers.cirro.io/" variant="secondary">
-                  developers.cirro.io
+                <Button href="https://cirro.io/developers" variant="secondary">
+                  Developer Portal
                 </Button>
               </div>
             </div>

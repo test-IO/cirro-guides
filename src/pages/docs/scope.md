@@ -5,13 +5,13 @@ description: What Cirro can and can't do for you.
 
 ## The purpose of Cirro
 
-Cirro was `created` by the people behind [Test IO](https://test.io/), a crowdtesting company, to enable anyone to build their own crowd business. Cirro is a Backend as a Service that provides all core functionalities to run a crowd business, including but not limited to: **Authentication**, **Gigs & Invitations**, **Results & Rewards**.  
+Cirro was `created` by the people behind [Test IO](https://test.io/), a crowdtesting company, to enable anyone to build their own crowd business. Cirro is a Backend as a Service that provides all core functionalities to run a crowd business, including but not limited to: **Authentication**, **Gigs & Invitations**, **Results & Rewards**.
 Every worker for any crowd platform (we call them Spaces) built on top of Cirro has access to the Cirro.io community web interface, allowing them to manage their profile, configure payout settings, and see the list of available Spaces they might want to join. This means that Cirro not only provides a tried and tested list of backend functionalities, but also access to a community of workers which are performing tasks for different crowd businesses already.
 
 ## What Cirro is not
 
-Cirro does not provide a frontend interface for your workers to perform and submit tasks. You have to build and operate your own application - including data storage and processing - to provide your workers with a way to perform tasks and fetch/submit data from and to Cirro.  
-However, we provide a sample Space (currently only in Ruby on Rails) that you can use as a starting point for your own Space. You can find the source code for the sample Space [here](/to-be-defined).
+Cirro does not provide a frontend interface for your workers to perform and submit tasks. You have to build and operate your own application - including data storage and processing - to provide your workers with a way to perform tasks and fetch/submit data from and to Cirro.
+However, we provide a sample Space (currently only in Ruby on Rails) that you can use as a starting point for your own Space.
 
 ## What Cirro can do for you
 

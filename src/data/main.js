@@ -8,12 +8,12 @@ const main = [
   },
   {
     title: "API Reference",
-    href: "https://cirroapiv2.docs.apiary.io/",
+    href: "https://api-docs.cirro.io/",
     icon: CodeBracketIcon,
   },
   {
-    title: "developers.cirro.io",
-    href: "https://developers.cirro.io/",
+    title: "Developer Portal",
+    href: "https://cirro.io/developers",
     icon: AdjustmentsVerticalIcon,
   },
 ]

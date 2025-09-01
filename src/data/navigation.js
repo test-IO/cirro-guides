@@ -7,6 +7,7 @@ const navigation = [
       { title: "Terminology", href: "/docs/terminology" },
       { title: "Example Space", href: "/docs/example_space" },
       { title: "Webhooks", href: "/docs/webhooks" },
+      { title: "Idempotency Keys", href: "/docs/idempotency_keys" },
     ],
   },
   {
@@ -23,11 +24,8 @@ const navigation = [
       { title: "Notifications", href: "/docs/features/notifications" },
       { title: "Space Invitations", href: "/docs/features/space_invitations" },
       { title: "Skill Sync", href: "/docs/features/skill_sync" },
+      { title: "AI Access", href: "/docs/features/ai_access" },
     ],
-  },
-  {
-    title: "EPAM",
-    links: [{ title: "EPAM Integrations", href: "/docs/epam/integrations" }],
   },
 ]
 
