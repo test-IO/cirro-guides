@@ -65,8 +65,19 @@ To contribute to the Cirro Guides application (this repository), you need to hav
 - [Markdoc](https://markdoc.dev/)
 - [Tailwind CSS](https://tailwindcss.com/docs)
 
-To get started, first run `bin/setup`. This will install all dependencies and set up the project. Then run `yarn dev` to start the development server. You can now access the application at [http://localhost:3000](http://localhost:3000).  
+To get started, first run `bin/setup`. This will install all dependencies and set up the project. Then run `yarn dev` to start the development server. You can now access the application at [http://localhost:3000](http://localhost:3000).
 To run the linter, run `bin/lint`. This requires markdownlint to be installed. To install it via Homebrew, run `brew install markdownlint-cli`.
+
+All the commands that you can use
+`yarn dev` runs the development server on localhost:3000 without the need to compile
+`yarn build` compiles the application for production use, must be used before `yarn start`
+`yarn start` starts a production server with the compiled application, available on your machine's public IP
+`yarn lint` runs the bin/lint that will check and **fix** code style issues(if any, changes can be seen with `git status`)
+`yarn lint:next` runs `next lint` to check for linting issues in the codebase
+`yarn lint:markdown` runs `markdownlint` to check for linting issues in markdown files
+`yarn format` lists files that are not formatted according to Prettier rules
+`yarn format:check` checks formatting without making changes (useful for CI)
+`yarn format:fix` automatically fixes formatting issues
 
 ### Search
 
