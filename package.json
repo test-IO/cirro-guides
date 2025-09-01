@@ -40,7 +40,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "eslint": "^8.41.0",
     "eslint-config-next": "^13.4.0",
-    "markdownlint": "^0.29.0",
+    "markdownlint": "^0.38.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
