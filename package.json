@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "./bin/lint",
     "lint:next": "next lint",
     "lint:markdown": "markdownlint .github/**/*.md README.md pages/**/*.md -c .markdownlint.yml",
