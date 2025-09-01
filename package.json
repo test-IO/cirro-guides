@@ -15,7 +15,7 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@docsearch/react": "^3.2.1",
-    "@headlessui/react": "^1.7.13",
+    "@headlessui/react": "^2.2.7",
     "@heroicons/react": "^2.0.17",
     "@markdoc/markdoc": "0.3.0",
     "@markdoc/next.js": "0.2.2",
@@ -40,7 +40,7 @@
     "@trivago/prettier-plugin-sort-imports": "^4.1.1",
     "eslint": "^8.41.0",
     "eslint-config-next": "^13.4.0",
-    "markdownlint": "^0.29.0",
+    "markdownlint": "^0.38.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
