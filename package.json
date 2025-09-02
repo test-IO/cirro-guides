@@ -27,7 +27,7 @@
     "focus-visible": "^5.2.0",
     "next": "^15.5.2",
     "postcss-focus-visible": "^9.0.0",
-    "postcss-import": "^15.1.0",
+    "postcss-import": "^16.1.1",
     "prism-react-renderer": "^2.0.0",
     "prismjs": "^1.30.0",
     "react": "18.2.0",
