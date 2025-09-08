@@ -17,7 +17,7 @@
     "@docsearch/react": "^3.2.1",
     "@headlessui/react": "^2.2.7",
     "@heroicons/react": "^2.0.17",
-    "@markdoc/markdoc": "0.3.0",
+    "@markdoc/markdoc": "0.5.4",
     "@markdoc/next.js": "0.2.2",
     "@sindresorhus/slugify": "^2.1.0",
     "@tailwindcss/typography": "^0.5.16",
