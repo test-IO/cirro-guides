@@ -42,8 +42,8 @@ For more details on integration variables, refer to the [Okta documentation here
 1. Open the Cirro app in your Okta admin console.
 2. Navigate to the Sign On tab.
 3. Copy the following values:
-    - Client ID
-    - Client Secret
+   - Client ID
+   - Client Secret
 4. Copy your okta organization URL that Cirro is going to use in order to authenticate your users. It is the URL that you access the organization with. [Read more](https://developer.okta.com/docs/guides/find-your-domain/main/#find-your-okta-domain)
 
 ### Send email with the collected information
@@ -68,6 +68,7 @@ We will review the information and confirm once the integration is set up and re
 Cirro supports SP-initiated SSO for login. This means users start the login process from Cirro's login page and are redirected to Okta for authentication. Once authenticated, they are redirected back to Cirro and granted access.
 
 Login Steps:
+
 1. Navigate to your organization's specific Cirro login page (provided after the integration setup).
 2. Click the "Okta" button.
 3. Enter your Okta credentials if prompted.

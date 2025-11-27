@@ -30,6 +30,7 @@ Using the access token, you can finally [access the users profile information](h
 ## Authentication methods
 
 Cirro supports the following authentication methods for users:
+
 - **Email and password**: Users can sign up and sign in using their email address and a password.
 - **EPAM SSO**: Users from EPAM can sign in using their EPAM credentials.
 - **LinkedIn**: Users can sign in using their LinkedIn account.
