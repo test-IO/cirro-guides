@@ -16,7 +16,7 @@
   "dependencies": {
     "@docsearch/react": "^4.2.0",
     "@headlessui/react": "^2.2.7",
-    "@heroicons/react": "^2.0.17",
+    "@heroicons/react": "^2.2.0",
     "@markdoc/markdoc": "0.5.4",
     "@markdoc/next.js": "0.2.2",
     "@sindresorhus/slugify": "^2.1.0",
