@@ -6,10 +6,16 @@
 [![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
 [![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
 
+Live website at: [https://guides.cirro.io](https://guides.cirro.io)
+
 > Cirro Guides for anyone - business or developer - to learn about Cirro and how to use it.
 > This is a [Next.js](https://nextjs.org/) project using [Tailwind CSS](https://tailwindcss.com/) and [Markdoc](https://markdoc.dev/).
 
 ## Contributing
+
+### Update the change log
+
+When you make changes to the Cirro Guides, please update the change log list in the `src/pages/index.md` file. Add a new entry at the top of the list with the date and a brief description of the changes you made.
 
 ### Writing Content
 
