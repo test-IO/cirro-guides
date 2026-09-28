@@ -32,6 +32,7 @@ Please be aware that the Guides are still in development. If you find any issues
 
 Latest changes to the Cirro Guides:
 
+- Sep 28, 2026 - Updated Results & Rewards page with payment process details.
 - Nov 27, 2025 - Added Okta Configuration Guide.
 - Oct 18, 2024 - Added Authentication page.
 - Oct 08, 2024 - Added AI Access page.
