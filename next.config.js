@@ -7,9 +7,8 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  // @docsearch/react imports @algolia/autocomplete-core as ESM, which only exposes ESM via "module"; bundle it instead.
+  transpilePackages: ["@docsearch/react"],
   images: {
     loader: "akamai",
     path: "/",

@@ -92,8 +92,8 @@ The search is powered by [Algolia](https://www.algolia.com/). The search index i
 ### JavaScript
 
 <p>
-  <img src="https://img.shields.io/badge/node-20.x.x-blue.svg" />
-  <img src="https://img.shields.io/badge/yarn-1.22.x-blue.svg" />
+  <img src="https://img.shields.io/badge/node-24.x.x-blue.svg" alt="Node 24" />
+  <img src="https://img.shields.io/badge/yarn-1.22.x-blue.svg" alt="Yarn 1.22" />
 </p>
 
 ## Authors
