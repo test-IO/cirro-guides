@@ -5,9 +5,25 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      # Keep at v3 - tried already, it doesn't work: v5 fails the deploy with
+      # "TypeError: error must be an instance of Error" (static_site_generator: next).
+      # Bumped in ad4fd22 (#58), reverted in dbeb315 (#40) on 2025-09-01;
+      # bumped again in d951c46 (#90), reverted in 13530f4 (#91) on 2025-11-27.
+      - dependency-name: "actions/configure-pages"
+        versions: [">=4"]
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
+    ignore:
+      # Keep at 9.x - ecosystem not ready: eslint-config-next 16.3.6 fails on ESLint 10 with
+      # "TypeError: scopeManager.addGlobals is not a function" (checked 2026-09-28).
+      - dependency-name: "eslint"
+        versions: [">=10"]
+      # Keep at 6.x - ecosystem not ready: typescript-eslint (via eslint-config-next) fails with
+      # "Error: typescript-eslint does not support TS 7.0." (checked 2026-09-28).
+      - dependency-name: "typescript"
+        versions: [">=7"]

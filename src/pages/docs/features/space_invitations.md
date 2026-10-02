@@ -9,4 +9,4 @@ You are responsible for ensuring consent from the invited user, for example by a
 
 You can also expire a Space Invitation via API.
 
-The API documentation for Space Invitation can be found [here](https://api-docs.cirro.io/docs/space_invitations/about).
+See the [Space Invitation API documentation](https://api-docs.cirro.io/docs/space_invitations/about).
