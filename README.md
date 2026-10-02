@@ -8,8 +8,19 @@
 
 Live website at: [https://guides.cirro.io](https://guides.cirro.io)
 
-> Cirro Guides for anyone - business or developer - to learn about Cirro and how to use it.
-> This is a [Next.js](https://nextjs.org/) project using [Tailwind CSS](https://tailwindcss.com/) and [Markdoc](https://markdoc.dev/).
+## About
+
+Cirro is (more than a) backend as a service: it provides everything needed to build a Crowd based platform, from user management to payments. Cirro Guides is its public documentation site, for anyone - business or developer - who wants to learn what Cirro does and how to use it.
+
+The site covers:
+
+- **Introduction**: getting started, the scope of Cirro, terminology, an example Space, webhooks and idempotency keys.
+- **Main features**: authentication (incl. the Okta configuration guide), Gigs & Invitations, and Results & Rewards.
+- **Secondary features**: notifications, Space invitations, Skill Sync and AI Access.
+
+It has full-text search (⌘K), a dark mode, and links to the [API Reference](https://api-docs.cirro.io/) and the [Developer Portal](https://cirro.io/developers). A change log of the guides is kept on the home page.
+
+This is a [Next.js](https://nextjs.org/) project using [Tailwind CSS](https://tailwindcss.com/) and [Markdoc](https://markdoc.dev/), exported as a static site and deployed to GitHub Pages by the `deploy.yml` workflow.
 
 ## Contributing
 
@@ -72,14 +83,14 @@ To contribute to the Cirro Guides application (this repository), you need to hav
 - [Tailwind CSS](https://tailwindcss.com/docs)
 
 To get started, first run `bin/setup`. This will install all dependencies and set up the project. Then run `yarn dev` to start the development server. You can now access the application at [http://localhost:3000](http://localhost:3000).
-To run the linter, run `bin/lint`. This requires markdownlint to be installed. To install it via Homebrew, run `brew install markdownlint-cli`.
+To run the linter, run `bin/lint`.
 
 All the commands that you can use
 `yarn dev` runs the development server on localhost:3000 without the need to compile
 `yarn build` compiles the application for production use, must be used before `yarn start`
 `yarn start` starts a production server with the compiled application, available on your machine's public IP
 `yarn lint` runs the bin/lint that will check and **fix** code style issues(if any, changes can be seen with `git status`)
-`yarn lint:next` runs `next lint` to check for linting issues in the codebase
+`yarn lint:next` runs ESLint to check for linting issues in the codebase
 `yarn lint:markdown` runs `markdownlint` to check for linting issues in markdown files
 `yarn format` lists files that are not formatted according to Prettier rules
 `yarn format:check` checks formatting without making changes (useful for CI)
@@ -88,6 +99,14 @@ All the commands that you can use
 ### Search
 
 The search is powered by [Algolia](https://www.algolia.com/). The search index is updated by running a crawler on the deployed guides. This crawler is Python based and lives in its own (private) [repository](https://github.com/test-IO/cirro-guides-scraper). All instructions on how to run the crawler can be found in that repositories [README](https://github.com/test-IO/cirro-guides-scraper#readme).
+
+The search bar reads the `NEXT_PUBLIC_DOCSEARCH_APP_ID`, `NEXT_PUBLIC_DOCSEARCH_API_KEY` and `NEXT_PUBLIC_DOCSEARCH_INDEX_NAME` [repository variables](https://github.com/test-IO/cirro-guides/settings/variables/actions) at build time. They must point at the same Algolia application and index as the crawler (`cirro_guides`). Use the application's **Search-Only API Key**, never the crawler's write key: these values are shipped to every visitor's browser. To have search locally, put the same three variables in `.env.local`.
+
+### Claude Code skills
+
+The repository ships [Claude Code](https://claude.com/claude-code) skills in `.claude/skills/`. Run them from Claude Code in the repository root:
+
+- `/upgrade-deps`: upgrades every npm package, GitHub Action and the Node version to its latest release, majors included, except packages held back by the `ignore` rules in `.github/dependabot.yml`. It migrates code for major bumps, verifies lint, formatting, build and audit, reports what changed, and commits on a `deps/upgrade-YYYY-MM-DD` branch in the format GitHub uses to autofill the PR. It asks before branching and committing, and never pushes.
 
 ### JavaScript
 
