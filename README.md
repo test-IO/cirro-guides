@@ -2,11 +2,13 @@
 
 # Cirro Guides
 
-[![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml)
-[![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
-[![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/test-IO/cirro-guides/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
+[![Deploy](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml)
+[![Build](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
+[![Lints](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
+![Node](https://img.shields.io/badge/node-24.x-blue?style=flat-square&logo=nodedotjs)
+![Yarn](https://img.shields.io/badge/yarn-1.22.x-blue?style=flat-square&logo=yarn)
 
-Live website at: [https://guides.cirro.io](https://guides.cirro.io)
+**Website:** <https://guides.cirro.io/>
 
 ## About
 
