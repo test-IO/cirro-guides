@@ -15,7 +15,7 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@algolia/client-search": "^5.59.0",
-    "@docsearch/react": "^5.1.1",
+    "@docsearch/react": "^5.1.2",
     "@headlessui/react": "^2.2.10",
     "@heroicons/react": "^2.2.0",
     "@markdoc/markdoc": "^0.5.10",
@@ -49,6 +49,8 @@
   },
   "resolutions": {
     "@tailwindcss/typography/postcss-selector-parser": "^7.1.6",
-    "markdownlint-cli/js-yaml": "^5.4.2"
+    "markdownlint-cli/js-yaml": "^5.4.3",
+    "markdownlint-cli/smol-toml": "^1.9.0",
+    "markdownlint-cli/markdownlint/micromark-extension-math/katex": "^0.19.0"
   }
 }
