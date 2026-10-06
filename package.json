@@ -26,8 +26,8 @@
     "clsx": "^2.1.1",
     "copy-to-clipboard": "^4.0.2",
     "focus-visible": "^5.2.1",
-    "next": "^16.3.6",
-    "postcss": "^8.5.28",
+    "next": "^16.3.8",
+    "postcss": "^8.5.29",
     "postcss-focus-visible": "^11.0.0",
     "prism-react-renderer": "^2.4.1",
     "prismjs": "^1.30.0",
@@ -41,13 +41,14 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.3.6",
+    "eslint-config-next": "^16.3.8",
     "markdownlint-cli": "^0.49.1",
     "prettier": "^3.9.9",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "^6.0.3"
   },
   "resolutions": {
-    "@tailwindcss/typography/postcss-selector-parser": "^7.1.6"
+    "@tailwindcss/typography/postcss-selector-parser": "^7.1.6",
+    "markdownlint-cli/js-yaml": "^5.4.2"
   }
 }
