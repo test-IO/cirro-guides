@@ -124,6 +124,37 @@
   display: none;
 }
 
+.DocSearch-Actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 0.75rem;
+}
+
+.DocSearch-Action {
+  border-radius: 50%;
+  color: var(--docsearch-action-color);
+  background: none;
+  border: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.DocSearch-Action svg {
+  height: 1.125rem;
+  width: 1.125rem;
+}
+
+.DocSearch-Action:hover,
+.DocSearch-Action:focus-visible {
+  background: var(--docsearch-action-active-background);
+  outline: none;
+}
+
 .DocSearch-Container--Stalled .DocSearch-MagnifierLabel,
 .DocSearch-LoadingIndicator {
   display: none;
@@ -290,6 +321,9 @@
 
 .DocSearch-Hit-source,
 .DocSearch-NoResults .DocSearch-Help {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   margin-left: 0.75rem;
   margin-bottom: 0.5rem;
   font-family: var(--font-display);
@@ -297,6 +331,12 @@
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.5rem;
+}
+
+.DocSearch-Hit-source svg {
+  flex-shrink: 0;
+  height: 1.25rem;
+  width: 1.25rem;
 }
 
 .DocSearch-Hit-Tree {
@@ -377,6 +417,12 @@ svg.DocSearch-Hit-Select-Icon {
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 80%;
+}
+
+/* @docsearch/react 5.1.2 renders lvl0 items (recent/favorite searches) through
+   two HitContent branches back to back; drop the duplicate sibling. */
+.DocSearch-Hit-content-wrapper + .DocSearch-Hit-content-wrapper {
+  display: none;
 }
 
 .DocSearch-Hit-title,
