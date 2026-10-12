@@ -7,7 +7,13 @@ import { createPortal } from "react-dom"
 const docSearchConfig = {
   appId: process.env.NEXT_PUBLIC_DOCSEARCH_APP_ID,
   apiKey: process.env.NEXT_PUBLIC_DOCSEARCH_API_KEY,
-  indices: [process.env.NEXT_PUBLIC_DOCSEARCH_INDEX_NAME],
+  indices: ["cirro_guides"],
+  // Index stores absolute prod URLs; make them relative so search works on any host
+  transformItems: (items) =>
+    items.map((item) => {
+      const { pathname, hash } = new URL(item.url)
+      return { ...item, url: pathname + hash }
+    }),
 }
 
 function Hit({ hit, children }) {

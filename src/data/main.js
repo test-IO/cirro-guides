@@ -2,11 +2,6 @@ import { AdjustmentsVerticalIcon, BookOpenIcon, CodeBracketIcon } from "@heroico
 
 const main = [
   {
-    title: "Guides",
-    href: "/",
-    icon: BookOpenIcon,
-  },
-  {
     title: "API Reference",
     href: "https://api-docs.cirro.io/",
     icon: CodeBracketIcon,
