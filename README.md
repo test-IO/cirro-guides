@@ -5,7 +5,7 @@
 [![Deploy](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/deploy.yml)
 [![Build](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/build.yml)
 [![Lints](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml/badge.svg)](https://github.com/test-IO/cirro-guides/actions/workflows/lints.yml)
-![Node](https://img.shields.io/badge/node-24.x-blue?style=flat-square&logo=nodedotjs)
+![Node](https://img.shields.io/badge/node-26.x-blue?style=flat-square&logo=nodedotjs)
 ![Yarn](https://img.shields.io/badge/yarn-1.22.x-blue?style=flat-square&logo=yarn)
 
 **Website:** <https://guides.cirro.io/>
@@ -113,7 +113,7 @@ The repository ships [Claude Code](https://claude.com/claude-code) skills in `.c
 ### JavaScript
 
 <p>
-  <img src="https://img.shields.io/badge/node-24.x.x-blue.svg" alt="Node 24" />
+  <img src="https://img.shields.io/badge/node-26.x.x-blue.svg" alt="Node 26" />
   <img src="https://img.shields.io/badge/yarn-1.22.x-blue.svg" alt="Yarn 1.22" />
 </p>
 
