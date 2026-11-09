@@ -41,7 +41,7 @@
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "eslint": "^9.39.5",
-    "eslint-config-next": "^16.4.4",
+    "eslint-config-next": "^16.4.5",
     "markdownlint-cli": "^0.50.0",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
